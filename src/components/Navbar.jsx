@@ -11,7 +11,7 @@ export default function Navbar(){
                         Portfolio
                     </a>
                 </div>
-             <ul className="flex items-center flex-wrap justify-end space-x-1 lg:space-x-4 text-white text-sm md:text-2xl lg:text-3xl p-3 mr-1">
+             <ul className="flex items-center flex-wrap justify-end space-x-1 lg:space-x-4 text-white text-sm md:text-2xl lg:text-3xl p-3">
                 <li>
                     <a href="#about-me" className="hover:bg-[#ffa500] p-3">
                         About Me
