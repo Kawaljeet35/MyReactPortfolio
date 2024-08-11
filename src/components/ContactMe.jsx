@@ -2,8 +2,8 @@ import { contactData } from '../../data';
 
 export default function ContactMe(){
     return (
-        <div id='contacts' className='mb-24'>
-            <h2 className="text-[#ffa500] text-center text-5xl font-bold mb-8">
+        <div id='contacts' className='mb-18'>
+            <h2 className="text-[#ffa500] text-center text-4xl font-bold mb-8">
                 Contact Me
             </h2>
             <div className='flex flex-wrap justify-center w-[95%] m-5'>
