@@ -15,7 +15,7 @@ export default function MyProjects(){
                             <p className="text-xl text-black mt-4">{project.Description}</p>
                             <button 
                                 onClick={() => window.open(project.Link, '_blank', 'noopener,noreferrer')}  
-                                className="mt-4 py-2 px-4 bg-blue-900 text-white text-lg rounded-full cursor-pointer"
+                                className="mt-4 py-2 px-4 bg-blue-700 hover:bg-blue-800 text-white text-lg rounded-full cursor-pointer"
                             >
                                 View Project
                             </button>
