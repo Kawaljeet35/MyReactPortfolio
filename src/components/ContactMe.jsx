@@ -1,9 +1,9 @@
 import { contactData } from '../../data';
 import emailjs from 'emailjs-com';
 
-const serviceId = process.env.VITE_EMAILJS_SERVICE_ID;
-const templateId = process.env.VITE_EMAILJS_TEMPLATE_ID;
-const userId = process.env.VITE_EMAILJS_USER_ID;
+const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const userId = import.meta.env.VITE_EMAILJS_USER_ID;
 
 export default function ContactMe() {
 
