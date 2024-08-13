@@ -7,7 +7,7 @@ export default function AboutMe(){
             <p className="text-white text-center text-2xl">
                 Hello! My name is <span className="text-[#ffa500]">Kawaljeet</span>, and I am an aspiring 
                 self taught <br/><span className="text-[#ffa500]">full-stack developer.</span><br/><br/>With 
-                a solid foundation in <span class="text-[#ffa500]">HTML</span>, <span class="text-[#ffa500]">CSS
+                a solid foundation in <span className="text-[#ffa500]">HTML</span>, <span className="text-[#ffa500]">CSS
                 </span> and <span className="text-[#ffa500]">JavaScript</span>, <br/>I specialize in modern 
                 web development technologies, including <span className="text-[#ffa500]">React</span> for 
                 front-end<br/> development and <span className="text-[#ffa500]">Node.js</span> for back-end 

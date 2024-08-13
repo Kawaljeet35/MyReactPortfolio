@@ -2,13 +2,13 @@ import { ProjectData } from '../../data';
 
 export default function MyProjects(){
     return (
-        <div id="projects" className='scroll-m-20 m-24'>
+        <div id="projects" className='scroll-m-20 m-8 sm:m-16'>
             <h2 className="text-[#ffa500] text-center text-4xl font-bold mb-6">
                 My Projects
             </h2>
             <div className="flex flex-wrap justify-center">
                 {ProjectData.map((project, index) => (
-                    <div key={index} className="bg-[#3bd7e9] w-full sm:w-2/5 m-4 p-4 border border-black flex flex-col items-center text-center">
+                    <div key={index} className="bg-[#3bd7e9] w-full md:w-2/5 m-4 p-4 border border-black flex flex-col items-center text-center">
                         <img src={project.Image} alt={project.Title} className="w-full" />
                         <div className="mt-4">
                             <h3 className="text-2xl underline font-semibold">{project.Title}</h3>
