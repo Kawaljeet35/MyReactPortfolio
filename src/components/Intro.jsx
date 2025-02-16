@@ -10,7 +10,7 @@ export default function Intro() {
       <button
         onClick={() =>
           window.open(
-            "https://kawaljeet35.github.io/MyReactPortfolio/",
+            "https://drive.google.com/file/d/164dLH3KLahBAn6J19j8c2kkqByyJWaz_/view",
             "_blank",
             "noopener,noreferrer"
           )
